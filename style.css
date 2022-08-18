@@ -1,0 +1,95 @@
+body{
+    background-image:url(background.jpg);
+    background-size: cover;
+    line-height: 2%;
+}
+
+.container{
+          width: 830px;
+          max-height: 600px;
+          margin:auto;
+          padding: 75px;
+          box-sizing:border-box;
+          border-radius: 3%;
+          background-color: rgba(0,0,0,0.5);
+}
+
+
+.logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 180px;
+}
+
+
+.text{
+     text-align: center;
+     color: lime;
+}
+
+
+
+header, main {
+              font-family: 'Quicksand', sans-serif;
+              color: white;
+
+}
+
+
+
+nav{
+   text-align: center;
+   line-height: 35px;
+   background-color: lime;
+   height: 35px;
+}
+
+
+nav>button{
+      font-size: 70%;
+}
+
+
+h3{
+  display: inline-block;
+  font-size: 18px;
+  margin-bottom:-12px;
+}
+
+
+
+p{
+  font-size: 11.5px;
+}
+
+
+#battery-status{
+              line-height: 10px;
+}
+
+
+.rectangle1, .rectangle2, .rectangle3{
+                                     border-radius: 5px;
+}
+
+
+.rectangle1 {
+      width: 240px;
+      height: 22px;
+      background: #ffc93b;
+}
+
+
+.rectangle2 {
+            width: 400px;
+            height: 22px;
+            background: #21d100;
+}
+
+
+.rectangle3 {
+            width: 100px;
+            height: 22px;
+            background: #e71837;
+}
